@@ -1,0 +1,4 @@
+venv/
+.idea/
+__pycache__
+config/BigQueryProject-38532f2e6a07.json

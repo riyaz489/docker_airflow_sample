@@ -1,0 +1,9 @@
+version: '3'
+services:
+  web:
+    build: ./
+    ports:
+      #changing port from 8080 to 8010
+      - "8010:8080"
+    volumes:
+      - ./airflow/dags:/usr/local/airflow/dags

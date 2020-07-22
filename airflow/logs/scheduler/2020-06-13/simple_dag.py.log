@@ -1,0 +1,556 @@
+[2020-06-13 12:06:42,486] {scheduler_job.py:154} INFO - Started process (PID=77426) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:06:42,493] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:06:42,493] {logging_mixin.py:112} INFO - [2020-06-13 12:06:42,493] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:06:42,504] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:06:42,527] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.042 seconds
+[2020-06-13 12:07:32,512] {scheduler_job.py:154} INFO - Started process (PID=78063) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:07:32,519] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:07:32,520] {logging_mixin.py:112} INFO - [2020-06-13 12:07:32,520] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:07:32,534] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:07:32,572] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.060 seconds
+[2020-06-13 12:08:22,553] {scheduler_job.py:154} INFO - Started process (PID=78304) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:08:22,554] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:08:22,554] {logging_mixin.py:112} INFO - [2020-06-13 12:08:22,554] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:08:22,559] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:08:22,580] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.027 seconds
+[2020-06-13 12:09:12,630] {scheduler_job.py:154} INFO - Started process (PID=78440) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:09:12,636] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:09:12,636] {logging_mixin.py:112} INFO - [2020-06-13 12:09:12,636] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:09:12,646] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:09:12,695] {scheduler_job.py:1284} INFO - Processing simple_dag
+[2020-06-13 12:09:12,745] {scheduler_job.py:1294} INFO - Created <DagRun simple_dag @ 2020-06-01T10:00:00+00:00: scheduled__2020-06-01T10:00:00+00:00, externally triggered: False>
+[2020-06-13 12:09:12,748] {scheduler_job.py:759} INFO - Examining DAG run <DagRun simple_dag @ 2020-06-01 10:00:00+00:00: scheduled__2020-06-01T10:00:00+00:00, externally triggered: False>
+[2020-06-13 12:09:12,770] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: simple_dag> because no tasks in DAG have SLAs
+[2020-06-13 12:09:12,773] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: simple_dag.say_hi 2020-06-01 10:00:00+00:00 [scheduled]> in ORM
+[2020-06-13 12:09:12,789] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.159 seconds
+[2020-06-13 12:10:13,029] {scheduler_job.py:154} INFO - Started process (PID=78642) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:10:13,030] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:10:13,030] {logging_mixin.py:112} INFO - [2020-06-13 12:10:13,030] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:10:13,035] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:10:13,066] {scheduler_job.py:1284} INFO - Processing simple_dag
+[2020-06-13 12:10:13,104] {scheduler_job.py:1294} INFO - Created <DagRun simple_dag @ 2020-06-01T10:01:00+00:00: scheduled__2020-06-01T10:01:00+00:00, externally triggered: False>
+[2020-06-13 12:10:13,106] {scheduler_job.py:759} INFO - Examining DAG run <DagRun simple_dag @ 2020-06-01 10:00:00+00:00: scheduled__2020-06-01T10:00:00+00:00, externally triggered: False>
+[2020-06-13 12:10:13,111] {scheduler_job.py:759} INFO - Examining DAG run <DagRun simple_dag @ 2020-06-01 10:01:00+00:00: scheduled__2020-06-01T10:01:00+00:00, externally triggered: False>
+[2020-06-13 12:10:13,159] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: simple_dag> because no tasks in DAG have SLAs
+[2020-06-13 12:10:13,162] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: simple_dag.greet 2020-06-01 10:00:00+00:00 [scheduled]> in ORM
+[2020-06-13 12:10:13,164] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: simple_dag.say_hi 2020-06-01 10:01:00+00:00 [scheduled]> in ORM
+[2020-06-13 12:10:13,179] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.150 seconds
+[2020-06-13 12:11:24,884] {scheduler_job.py:154} INFO - Started process (PID=78849) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:11:24,886] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:11:24,886] {logging_mixin.py:112} INFO - [2020-06-13 12:11:24,886] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:11:24,893] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:11:24,920] {scheduler_job.py:1284} INFO - Processing simple_dag
+[2020-06-13 12:11:24,971] {scheduler_job.py:1294} INFO - Created <DagRun simple_dag @ 2020-06-01T10:02:00+00:00: scheduled__2020-06-01T10:02:00+00:00, externally triggered: False>
+[2020-06-13 12:11:24,976] {scheduler_job.py:759} INFO - Examining DAG run <DagRun simple_dag @ 2020-06-01 10:00:00+00:00: scheduled__2020-06-01T10:00:00+00:00, externally triggered: False>
+[2020-06-13 12:11:24,983] {scheduler_job.py:759} INFO - Examining DAG run <DagRun simple_dag @ 2020-06-01 10:01:00+00:00: scheduled__2020-06-01T10:01:00+00:00, externally triggered: False>
+[2020-06-13 12:11:24,989] {scheduler_job.py:759} INFO - Examining DAG run <DagRun simple_dag @ 2020-06-01 10:02:00+00:00: scheduled__2020-06-01T10:02:00+00:00, externally triggered: False>
+[2020-06-13 12:11:25,059] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: simple_dag> because no tasks in DAG have SLAs
+[2020-06-13 12:11:25,062] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: simple_dag.greet 2020-06-01 10:00:00+00:00 [scheduled]> in ORM
+[2020-06-13 12:11:25,064] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: simple_dag.say_hi 2020-06-01 10:02:00+00:00 [scheduled]> in ORM
+[2020-06-13 12:11:25,078] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.195 seconds
+[2020-06-13 12:12:36,695] {scheduler_job.py:154} INFO - Started process (PID=79016) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:12:36,697] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:12:36,697] {logging_mixin.py:112} INFO - [2020-06-13 12:12:36,697] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:12:36,704] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:12:36,732] {scheduler_job.py:1284} INFO - Processing simple_dag
+[2020-06-13 12:12:36,795] {scheduler_job.py:1294} INFO - Created <DagRun simple_dag @ 2020-06-01T10:03:00+00:00: scheduled__2020-06-01T10:03:00+00:00, externally triggered: False>
+[2020-06-13 12:12:36,802] {scheduler_job.py:759} INFO - Examining DAG run <DagRun simple_dag @ 2020-06-01 10:00:00+00:00: scheduled__2020-06-01T10:00:00+00:00, externally triggered: False>
+[2020-06-13 12:12:36,811] {scheduler_job.py:759} INFO - Examining DAG run <DagRun simple_dag @ 2020-06-01 10:01:00+00:00: scheduled__2020-06-01T10:01:00+00:00, externally triggered: False>
+[2020-06-13 12:12:36,818] {scheduler_job.py:759} INFO - Examining DAG run <DagRun simple_dag @ 2020-06-01 10:02:00+00:00: scheduled__2020-06-01T10:02:00+00:00, externally triggered: False>
+[2020-06-13 12:12:36,823] {scheduler_job.py:759} INFO - Examining DAG run <DagRun simple_dag @ 2020-06-01 10:03:00+00:00: scheduled__2020-06-01T10:03:00+00:00, externally triggered: False>
+[2020-06-13 12:12:36,991] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: simple_dag> because no tasks in DAG have SLAs
+[2020-06-13 12:12:36,996] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: simple_dag.say_hi 2020-06-01 10:03:00+00:00 [scheduled]> in ORM
+[2020-06-13 12:12:37,021] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.326 seconds
+[2020-06-13 12:13:37,075] {scheduler_job.py:154} INFO - Started process (PID=79151) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:13:37,081] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:13:37,082] {logging_mixin.py:112} INFO - [2020-06-13 12:13:37,082] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:13:37,092] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:13:37,100] {logging_mixin.py:112} INFO - [2020-06-13 12:13:37,100] {dag.py:1501} INFO - Creating ORM DAG for simple_dag
+[2020-06-13 12:13:37,121] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.046 seconds
+[2020-06-13 12:14:27,094] {scheduler_job.py:154} INFO - Started process (PID=79479) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:14:27,100] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:14:27,102] {logging_mixin.py:112} INFO - [2020-06-13 12:14:27,101] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:14:27,118] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:14:27,158] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.064 seconds
+[2020-06-13 12:15:17,150] {scheduler_job.py:154} INFO - Started process (PID=79780) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:15:17,156] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:15:17,157] {logging_mixin.py:112} INFO - [2020-06-13 12:15:17,157] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:15:17,174] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:15:17,208] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.058 seconds
+[2020-06-13 12:16:07,214] {scheduler_job.py:154} INFO - Started process (PID=79985) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:16:07,221] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:16:07,222] {logging_mixin.py:112} INFO - [2020-06-13 12:16:07,222] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:16:07,237] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:16:07,268] {scheduler_job.py:1284} INFO - Processing simple_dag
+[2020-06-13 12:16:07,310] {scheduler_job.py:1294} INFO - Created <DagRun simple_dag @ 2020-06-01T10:00:00+00:00: scheduled__2020-06-01T10:00:00+00:00, externally triggered: False>
+[2020-06-13 12:16:07,314] {scheduler_job.py:759} INFO - Examining DAG run <DagRun simple_dag @ 2020-06-01 10:00:00+00:00: scheduled__2020-06-01T10:00:00+00:00, externally triggered: False>
+[2020-06-13 12:16:07,338] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: simple_dag> because no tasks in DAG have SLAs
+[2020-06-13 12:16:07,341] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: simple_dag.say_hi 2020-06-01 10:00:00+00:00 [scheduled]> in ORM
+[2020-06-13 12:16:07,355] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.141 seconds
+[2020-06-13 12:17:07,625] {scheduler_job.py:154} INFO - Started process (PID=80176) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:17:07,631] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:17:07,632] {logging_mixin.py:112} INFO - [2020-06-13 12:17:07,632] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:17:07,647] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:17:07,677] {scheduler_job.py:1284} INFO - Processing simple_dag
+[2020-06-13 12:17:07,718] {scheduler_job.py:1294} INFO - Created <DagRun simple_dag @ 2020-06-01T10:01:00+00:00: scheduled__2020-06-01T10:01:00+00:00, externally triggered: False>
+[2020-06-13 12:17:07,722] {scheduler_job.py:759} INFO - Examining DAG run <DagRun simple_dag @ 2020-06-01 10:00:00+00:00: scheduled__2020-06-01T10:00:00+00:00, externally triggered: False>
+[2020-06-13 12:17:07,731] {scheduler_job.py:759} INFO - Examining DAG run <DagRun simple_dag @ 2020-06-01 10:01:00+00:00: scheduled__2020-06-01T10:01:00+00:00, externally triggered: False>
+[2020-06-13 12:17:07,789] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: simple_dag> because no tasks in DAG have SLAs
+[2020-06-13 12:17:07,791] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: simple_dag.greet 2020-06-01 10:00:00+00:00 [scheduled]> in ORM
+[2020-06-13 12:17:07,793] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: simple_dag.say_hi 2020-06-01 10:01:00+00:00 [scheduled]> in ORM
+[2020-06-13 12:17:07,806] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.181 seconds
+[2020-06-13 12:18:19,506] {scheduler_job.py:154} INFO - Started process (PID=80384) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:18:19,514] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:18:19,515] {logging_mixin.py:112} INFO - [2020-06-13 12:18:19,514] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:18:19,525] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:18:19,553] {scheduler_job.py:1284} INFO - Processing simple_dag
+[2020-06-13 12:18:19,594] {scheduler_job.py:1294} INFO - Created <DagRun simple_dag @ 2020-06-01T10:02:00+00:00: scheduled__2020-06-01T10:02:00+00:00, externally triggered: False>
+[2020-06-13 12:18:19,598] {scheduler_job.py:759} INFO - Examining DAG run <DagRun simple_dag @ 2020-06-01 10:00:00+00:00: scheduled__2020-06-01T10:00:00+00:00, externally triggered: False>
+[2020-06-13 12:18:19,607] {scheduler_job.py:759} INFO - Examining DAG run <DagRun simple_dag @ 2020-06-01 10:01:00+00:00: scheduled__2020-06-01T10:01:00+00:00, externally triggered: False>
+[2020-06-13 12:18:19,616] {scheduler_job.py:759} INFO - Examining DAG run <DagRun simple_dag @ 2020-06-01 10:02:00+00:00: scheduled__2020-06-01T10:02:00+00:00, externally triggered: False>
+[2020-06-13 12:18:19,694] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: simple_dag> because no tasks in DAG have SLAs
+[2020-06-13 12:18:19,697] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: simple_dag.greet 2020-06-01 10:00:00+00:00 [scheduled]> in ORM
+[2020-06-13 12:18:19,699] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: simple_dag.say_hi 2020-06-01 10:02:00+00:00 [scheduled]> in ORM
+[2020-06-13 12:18:19,713] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.207 seconds
+[2020-06-13 12:19:21,252] {scheduler_job.py:154} INFO - Started process (PID=80657) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:19:21,256] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:19:21,257] {logging_mixin.py:112} INFO - [2020-06-13 12:19:21,257] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:19:21,267] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:19:21,275] {logging_mixin.py:112} INFO - [2020-06-13 12:19:21,275] {dag.py:1501} INFO - Creating ORM DAG for simple_dag
+[2020-06-13 12:19:21,291] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.039 seconds
+[2020-06-13 12:20:11,338] {scheduler_job.py:154} INFO - Started process (PID=80979) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:20:11,344] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:20:11,345] {logging_mixin.py:112} INFO - [2020-06-13 12:20:11,345] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:20:11,355] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:20:11,392] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.054 seconds
+[2020-06-13 12:21:01,365] {scheduler_job.py:154} INFO - Started process (PID=81138) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:21:01,367] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:21:01,367] {logging_mixin.py:112} INFO - [2020-06-13 12:21:01,367] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:21:01,375] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:21:01,406] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.041 seconds
+[2020-06-13 12:21:51,419] {scheduler_job.py:154} INFO - Started process (PID=81304) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:21:51,421] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:21:51,421] {logging_mixin.py:112} INFO - [2020-06-13 12:21:51,421] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:21:51,426] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:21:51,450] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.031 seconds
+[2020-06-13 12:22:41,493] {scheduler_job.py:154} INFO - Started process (PID=81502) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:22:41,499] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:22:41,501] {logging_mixin.py:112} INFO - [2020-06-13 12:22:41,500] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:22:41,517] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:22:41,549] {scheduler_job.py:1284} INFO - Processing simple_dag
+[2020-06-13 12:22:41,603] {scheduler_job.py:1294} INFO - Created <DagRun simple_dag @ 2020-06-01T10:00:00+00:00: scheduled__2020-06-01T10:00:00+00:00, externally triggered: False>
+[2020-06-13 12:22:41,612] {scheduler_job.py:759} INFO - Examining DAG run <DagRun simple_dag @ 2020-06-01 10:00:00+00:00: scheduled__2020-06-01T10:00:00+00:00, externally triggered: False>
+[2020-06-13 12:22:41,646] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: simple_dag> because no tasks in DAG have SLAs
+[2020-06-13 12:22:41,648] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: simple_dag.say_hi 2020-06-01 10:00:00+00:00 [scheduled]> in ORM
+[2020-06-13 12:22:41,663] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.171 seconds
+[2020-06-13 12:23:41,974] {scheduler_job.py:154} INFO - Started process (PID=81733) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:23:41,976] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:23:41,977] {logging_mixin.py:112} INFO - [2020-06-13 12:23:41,977] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:23:41,986] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:23:42,022] {scheduler_job.py:1284} INFO - Processing simple_dag
+[2020-06-13 12:23:42,082] {scheduler_job.py:1294} INFO - Created <DagRun simple_dag @ 2020-06-01T10:01:00+00:00: scheduled__2020-06-01T10:01:00+00:00, externally triggered: False>
+[2020-06-13 12:23:42,091] {scheduler_job.py:759} INFO - Examining DAG run <DagRun simple_dag @ 2020-06-01 10:00:00+00:00: scheduled__2020-06-01T10:00:00+00:00, externally triggered: False>
+[2020-06-13 12:23:42,106] {scheduler_job.py:759} INFO - Examining DAG run <DagRun simple_dag @ 2020-06-01 10:01:00+00:00: scheduled__2020-06-01T10:01:00+00:00, externally triggered: False>
+[2020-06-13 12:23:42,171] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: simple_dag> because no tasks in DAG have SLAs
+[2020-06-13 12:23:42,173] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: simple_dag.greet 2020-06-01 10:00:00+00:00 [scheduled]> in ORM
+[2020-06-13 12:23:42,176] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: simple_dag.say_hi 2020-06-01 10:01:00+00:00 [scheduled]> in ORM
+[2020-06-13 12:23:42,190] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.216 seconds
+[2020-06-13 12:24:53,639] {scheduler_job.py:154} INFO - Started process (PID=81935) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:24:53,645] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:24:53,647] {logging_mixin.py:112} INFO - [2020-06-13 12:24:53,646] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:24:53,660] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:24:53,699] {scheduler_job.py:1284} INFO - Processing simple_dag
+[2020-06-13 12:24:53,754] {scheduler_job.py:1294} INFO - Created <DagRun simple_dag @ 2020-06-01T10:02:00+00:00: scheduled__2020-06-01T10:02:00+00:00, externally triggered: False>
+[2020-06-13 12:24:53,759] {scheduler_job.py:759} INFO - Examining DAG run <DagRun simple_dag @ 2020-06-01 10:00:00+00:00: scheduled__2020-06-01T10:00:00+00:00, externally triggered: False>
+[2020-06-13 12:24:53,767] {scheduler_job.py:759} INFO - Examining DAG run <DagRun simple_dag @ 2020-06-01 10:01:00+00:00: scheduled__2020-06-01T10:01:00+00:00, externally triggered: False>
+[2020-06-13 12:24:53,774] {scheduler_job.py:759} INFO - Examining DAG run <DagRun simple_dag @ 2020-06-01 10:02:00+00:00: scheduled__2020-06-01T10:02:00+00:00, externally triggered: False>
+[2020-06-13 12:24:53,845] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: simple_dag> because no tasks in DAG have SLAs
+[2020-06-13 12:24:53,847] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: simple_dag.greet 2020-06-01 10:00:00+00:00 [scheduled]> in ORM
+[2020-06-13 12:24:53,850] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: simple_dag.say_hi 2020-06-01 10:02:00+00:00 [scheduled]> in ORM
+[2020-06-13 12:24:53,864] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.225 seconds
+[2020-06-13 12:26:05,256] {scheduler_job.py:154} INFO - Started process (PID=82161) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:26:05,258] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:26:05,259] {logging_mixin.py:112} INFO - [2020-06-13 12:26:05,259] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:26:05,266] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:26:05,274] {logging_mixin.py:112} INFO - [2020-06-13 12:26:05,274] {dag.py:1501} INFO - Creating ORM DAG for simple_dag
+[2020-06-13 12:26:05,291] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.035 seconds
+[2020-06-13 12:26:55,329] {scheduler_job.py:154} INFO - Started process (PID=82302) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:26:55,336] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:26:55,337] {logging_mixin.py:112} INFO - [2020-06-13 12:26:55,337] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:26:55,354] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:26:55,393] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.064 seconds
+[2020-06-13 12:27:45,379] {scheduler_job.py:154} INFO - Started process (PID=82481) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:27:45,381] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:27:45,382] {logging_mixin.py:112} INFO - [2020-06-13 12:27:45,382] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:27:45,390] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:27:45,424] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.045 seconds
+[2020-06-13 12:28:35,448] {scheduler_job.py:154} INFO - Started process (PID=82645) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:28:35,456] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:28:35,457] {logging_mixin.py:112} INFO - [2020-06-13 12:28:35,457] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:28:35,468] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:28:35,494] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.046 seconds
+[2020-06-13 12:29:25,509] {scheduler_job.py:154} INFO - Started process (PID=82818) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:29:25,516] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:29:25,517] {logging_mixin.py:112} INFO - [2020-06-13 12:29:25,517] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:29:25,532] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:29:25,571] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.062 seconds
+[2020-06-13 12:30:15,563] {scheduler_job.py:154} INFO - Started process (PID=83002) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:30:15,571] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:30:15,572] {logging_mixin.py:112} INFO - [2020-06-13 12:30:15,572] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:30:15,583] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:30:15,613] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.050 seconds
+[2020-06-13 12:31:05,657] {scheduler_job.py:154} INFO - Started process (PID=83148) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:31:05,663] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:31:05,665] {logging_mixin.py:112} INFO - [2020-06-13 12:31:05,664] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:31:05,683] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:31:05,736] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.079 seconds
+[2020-06-13 12:31:55,665] {scheduler_job.py:154} INFO - Started process (PID=83527) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:31:55,667] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:31:55,667] {logging_mixin.py:112} INFO - [2020-06-13 12:31:55,667] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:31:55,675] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:31:55,707] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.042 seconds
+[2020-06-13 12:32:45,721] {scheduler_job.py:154} INFO - Started process (PID=83735) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:32:45,724] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:32:45,724] {logging_mixin.py:112} INFO - [2020-06-13 12:32:45,724] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:32:45,731] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:32:45,763] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.042 seconds
+[2020-06-13 12:33:35,782] {scheduler_job.py:154} INFO - Started process (PID=83901) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:33:35,784] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:33:35,784] {logging_mixin.py:112} INFO - [2020-06-13 12:33:35,784] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:33:35,791] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:33:35,824] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.043 seconds
+[2020-06-13 12:34:25,844] {scheduler_job.py:154} INFO - Started process (PID=84085) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:34:25,846] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:34:25,847] {logging_mixin.py:112} INFO - [2020-06-13 12:34:25,847] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:34:25,855] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:34:25,889] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.045 seconds
+[2020-06-13 12:35:15,907] {scheduler_job.py:154} INFO - Started process (PID=84244) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:35:15,909] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:35:15,910] {logging_mixin.py:112} INFO - [2020-06-13 12:35:15,910] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:35:15,916] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:35:15,946] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.039 seconds
+[2020-06-13 12:36:05,998] {scheduler_job.py:154} INFO - Started process (PID=84386) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:36:06,001] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:36:06,002] {logging_mixin.py:112} INFO - [2020-06-13 12:36:06,001] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:36:06,009] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:36:06,033] {scheduler_job.py:1284} INFO - Processing simple_dag
+[2020-06-13 12:36:06,072] {scheduler_job.py:1294} INFO - Created <DagRun simple_dag @ 2020-06-01T10:00:00+00:00: scheduled__2020-06-01T10:00:00+00:00, externally triggered: False>
+[2020-06-13 12:36:06,074] {scheduler_job.py:759} INFO - Examining DAG run <DagRun simple_dag @ 2020-06-01 10:00:00+00:00: scheduled__2020-06-01T10:00:00+00:00, externally triggered: False>
+[2020-06-13 12:36:06,098] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: simple_dag> because no tasks in DAG have SLAs
+[2020-06-13 12:36:06,101] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: simple_dag.say_hi 2020-06-01 10:00:00+00:00 [scheduled]> in ORM
+[2020-06-13 12:36:06,115] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.117 seconds
+[2020-06-13 12:37:06,574] {scheduler_job.py:154} INFO - Started process (PID=84583) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:37:06,576] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:37:06,576] {logging_mixin.py:112} INFO - [2020-06-13 12:37:06,576] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:37:06,582] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:37:06,608] {scheduler_job.py:1284} INFO - Processing simple_dag
+[2020-06-13 12:37:06,647] {scheduler_job.py:1294} INFO - Created <DagRun simple_dag @ 2020-06-01T10:01:00+00:00: scheduled__2020-06-01T10:01:00+00:00, externally triggered: False>
+[2020-06-13 12:37:06,650] {scheduler_job.py:759} INFO - Examining DAG run <DagRun simple_dag @ 2020-06-01 10:00:00+00:00: scheduled__2020-06-01T10:00:00+00:00, externally triggered: False>
+[2020-06-13 12:37:06,656] {scheduler_job.py:759} INFO - Examining DAG run <DagRun simple_dag @ 2020-06-01 10:01:00+00:00: scheduled__2020-06-01T10:01:00+00:00, externally triggered: False>
+[2020-06-13 12:37:06,707] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: simple_dag> because no tasks in DAG have SLAs
+[2020-06-13 12:37:06,709] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: simple_dag.greet 2020-06-01 10:00:00+00:00 [scheduled]> in ORM
+[2020-06-13 12:37:06,712] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: simple_dag.say_hi 2020-06-01 10:01:00+00:00 [scheduled]> in ORM
+[2020-06-13 12:37:06,726] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.152 seconds
+[2020-06-13 12:38:18,254] {scheduler_job.py:154} INFO - Started process (PID=84807) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:38:18,261] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:38:18,262] {logging_mixin.py:112} INFO - [2020-06-13 12:38:18,261] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:38:18,277] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:38:18,399] {scheduler_job.py:1284} INFO - Processing simple_dag
+[2020-06-13 12:38:18,459] {scheduler_job.py:1294} INFO - Created <DagRun simple_dag @ 2020-06-01T10:02:00+00:00: scheduled__2020-06-01T10:02:00+00:00, externally triggered: False>
+[2020-06-13 12:38:18,464] {scheduler_job.py:759} INFO - Examining DAG run <DagRun simple_dag @ 2020-06-01 10:00:00+00:00: scheduled__2020-06-01T10:00:00+00:00, externally triggered: False>
+[2020-06-13 12:38:18,471] {scheduler_job.py:759} INFO - Examining DAG run <DagRun simple_dag @ 2020-06-01 10:01:00+00:00: scheduled__2020-06-01T10:01:00+00:00, externally triggered: False>
+[2020-06-13 12:38:18,477] {scheduler_job.py:759} INFO - Examining DAG run <DagRun simple_dag @ 2020-06-01 10:02:00+00:00: scheduled__2020-06-01T10:02:00+00:00, externally triggered: False>
+[2020-06-13 12:38:18,544] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: simple_dag> because no tasks in DAG have SLAs
+[2020-06-13 12:38:18,546] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: simple_dag.sleep_me 2020-06-01 10:00:00+00:00 [scheduled]> in ORM
+[2020-06-13 12:38:18,548] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: simple_dag.greet 2020-06-01 10:01:00+00:00 [scheduled]> in ORM
+[2020-06-13 12:38:18,550] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: simple_dag.say_hi 2020-06-01 10:02:00+00:00 [scheduled]> in ORM
+[2020-06-13 12:38:18,565] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.311 seconds
+[2020-06-13 12:39:41,202] {scheduler_job.py:154} INFO - Started process (PID=85091) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:39:41,208] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:39:41,210] {logging_mixin.py:112} INFO - [2020-06-13 12:39:41,209] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:39:41,224] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:39:41,232] {logging_mixin.py:112} INFO - [2020-06-13 12:39:41,232] {dag.py:1501} INFO - Creating ORM DAG for simple_dag
+[2020-06-13 12:39:41,248] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.046 seconds
+[2020-06-13 12:41:16,571] {scheduler_job.py:154} INFO - Started process (PID=85846) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:41:16,574] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:41:16,574] {logging_mixin.py:112} INFO - [2020-06-13 12:41:16,574] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:41:16,583] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:41:16,624] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.053 seconds
+[2020-06-13 12:42:06,635] {scheduler_job.py:154} INFO - Started process (PID=85995) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:42:06,637] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:42:06,637] {logging_mixin.py:112} INFO - [2020-06-13 12:42:06,637] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:42:06,644] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:42:06,673] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.038 seconds
+[2020-06-13 12:42:56,725] {scheduler_job.py:154} INFO - Started process (PID=86173) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:42:56,729] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:42:56,730] {logging_mixin.py:112} INFO - [2020-06-13 12:42:56,730] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:42:56,742] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:42:56,775] {scheduler_job.py:1284} INFO - Processing simple_dag
+[2020-06-13 12:42:56,832] {scheduler_job.py:1294} INFO - Created <DagRun simple_dag @ 2020-06-01T10:00:00+00:00: scheduled__2020-06-01T10:00:00+00:00, externally triggered: False>
+[2020-06-13 12:42:56,837] {scheduler_job.py:759} INFO - Examining DAG run <DagRun simple_dag @ 2020-06-01 10:00:00+00:00: scheduled__2020-06-01T10:00:00+00:00, externally triggered: False>
+[2020-06-13 12:42:56,861] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: simple_dag> because no tasks in DAG have SLAs
+[2020-06-13 12:42:56,864] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: simple_dag.say_hi 2020-06-01 10:00:00+00:00 [scheduled]> in ORM
+[2020-06-13 12:42:56,877] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.152 seconds
+[2020-06-13 12:43:57,113] {scheduler_job.py:154} INFO - Started process (PID=86346) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:43:57,119] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:43:57,120] {logging_mixin.py:112} INFO - [2020-06-13 12:43:57,120] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:43:57,140] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:43:57,184] {scheduler_job.py:1284} INFO - Processing simple_dag
+[2020-06-13 12:43:57,229] {scheduler_job.py:1294} INFO - Created <DagRun simple_dag @ 2020-06-01T10:01:00+00:00: scheduled__2020-06-01T10:01:00+00:00, externally triggered: False>
+[2020-06-13 12:43:57,233] {scheduler_job.py:759} INFO - Examining DAG run <DagRun simple_dag @ 2020-06-01 10:00:00+00:00: scheduled__2020-06-01T10:00:00+00:00, externally triggered: False>
+[2020-06-13 12:43:57,240] {scheduler_job.py:759} INFO - Examining DAG run <DagRun simple_dag @ 2020-06-01 10:01:00+00:00: scheduled__2020-06-01T10:01:00+00:00, externally triggered: False>
+[2020-06-13 12:43:57,294] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: simple_dag> because no tasks in DAG have SLAs
+[2020-06-13 12:43:57,297] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: simple_dag.greet 2020-06-01 10:00:00+00:00 [scheduled]> in ORM
+[2020-06-13 12:43:57,299] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: simple_dag.say_hi 2020-06-01 10:01:00+00:00 [scheduled]> in ORM
+[2020-06-13 12:43:57,317] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.204 seconds
+[2020-06-13 12:45:08,873] {scheduler_job.py:154} INFO - Started process (PID=86557) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:45:08,879] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:45:08,881] {logging_mixin.py:112} INFO - [2020-06-13 12:45:08,880] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:45:08,893] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:45:08,923] {scheduler_job.py:1284} INFO - Processing simple_dag
+[2020-06-13 12:45:08,985] {scheduler_job.py:1294} INFO - Created <DagRun simple_dag @ 2020-06-01T10:02:00+00:00: scheduled__2020-06-01T10:02:00+00:00, externally triggered: False>
+[2020-06-13 12:45:08,995] {scheduler_job.py:759} INFO - Examining DAG run <DagRun simple_dag @ 2020-06-01 10:00:00+00:00: scheduled__2020-06-01T10:00:00+00:00, externally triggered: False>
+[2020-06-13 12:45:09,008] {scheduler_job.py:759} INFO - Examining DAG run <DagRun simple_dag @ 2020-06-01 10:01:00+00:00: scheduled__2020-06-01T10:01:00+00:00, externally triggered: False>
+[2020-06-13 12:45:09,026] {scheduler_job.py:759} INFO - Examining DAG run <DagRun simple_dag @ 2020-06-01 10:02:00+00:00: scheduled__2020-06-01T10:02:00+00:00, externally triggered: False>
+[2020-06-13 12:45:09,117] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: simple_dag> because no tasks in DAG have SLAs
+[2020-06-13 12:45:09,121] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: simple_dag.sleep_me 2020-06-01 10:00:00+00:00 [scheduled]> in ORM
+[2020-06-13 12:45:09,124] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: simple_dag.greet 2020-06-01 10:01:00+00:00 [scheduled]> in ORM
+[2020-06-13 12:45:09,127] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: simple_dag.say_hi 2020-06-01 10:02:00+00:00 [scheduled]> in ORM
+[2020-06-13 12:45:09,142] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.269 seconds
+[2020-06-13 12:46:32,021] {scheduler_job.py:154} INFO - Started process (PID=86894) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:46:32,026] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:46:32,027] {logging_mixin.py:112} INFO - [2020-06-13 12:46:32,027] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:46:32,036] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:46:32,063] {scheduler_job.py:1284} INFO - Processing simple_dag
+[2020-06-13 12:46:32,109] {scheduler_job.py:1294} INFO - Created <DagRun simple_dag @ 2020-06-01T10:03:00+00:00: scheduled__2020-06-01T10:03:00+00:00, externally triggered: False>
+[2020-06-13 12:46:32,118] {scheduler_job.py:759} INFO - Examining DAG run <DagRun simple_dag @ 2020-06-01 10:00:00+00:00: scheduled__2020-06-01T10:00:00+00:00, externally triggered: False>
+[2020-06-13 12:46:32,133] {scheduler_job.py:759} INFO - Examining DAG run <DagRun simple_dag @ 2020-06-01 10:01:00+00:00: scheduled__2020-06-01T10:01:00+00:00, externally triggered: False>
+[2020-06-13 12:46:32,141] {scheduler_job.py:759} INFO - Examining DAG run <DagRun simple_dag @ 2020-06-01 10:02:00+00:00: scheduled__2020-06-01T10:02:00+00:00, externally triggered: False>
+[2020-06-13 12:46:32,148] {scheduler_job.py:759} INFO - Examining DAG run <DagRun simple_dag @ 2020-06-01 10:03:00+00:00: scheduled__2020-06-01T10:03:00+00:00, externally triggered: False>
+[2020-06-13 12:46:32,252] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: simple_dag> because no tasks in DAG have SLAs
+[2020-06-13 12:46:32,255] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: simple_dag.respond 2020-06-01 10:00:00+00:00 [scheduled]> in ORM
+[2020-06-13 12:46:32,257] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: simple_dag.sleep_me 2020-06-01 10:01:00+00:00 [scheduled]> in ORM
+[2020-06-13 12:46:32,259] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: simple_dag.greet 2020-06-01 10:02:00+00:00 [scheduled]> in ORM
+[2020-06-13 12:46:32,262] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: simple_dag.say_hi 2020-06-01 10:03:00+00:00 [scheduled]> in ORM
+[2020-06-13 12:46:32,278] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.257 seconds
+[2020-06-13 12:47:36,279] {scheduler_job.py:154} INFO - Started process (PID=87175) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:47:36,281] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:47:36,282] {logging_mixin.py:112} INFO - [2020-06-13 12:47:36,282] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:47:36,289] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:47:36,297] {logging_mixin.py:112} INFO - [2020-06-13 12:47:36,297] {dag.py:1501} INFO - Creating ORM DAG for simple_dag
+[2020-06-13 12:47:36,314] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.035 seconds
+[2020-06-13 12:48:26,332] {scheduler_job.py:154} INFO - Started process (PID=87272) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:48:26,338] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:48:26,339] {logging_mixin.py:112} INFO - [2020-06-13 12:48:26,339] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:48:26,354] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:48:26,385] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.053 seconds
+[2020-06-13 12:49:16,386] {scheduler_job.py:154} INFO - Started process (PID=87441) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:49:16,394] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:49:16,395] {logging_mixin.py:112} INFO - [2020-06-13 12:49:16,394] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:49:16,405] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:49:16,435] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.049 seconds
+[2020-06-13 12:50:06,449] {scheduler_job.py:154} INFO - Started process (PID=87560) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:50:06,455] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:50:06,457] {logging_mixin.py:112} INFO - [2020-06-13 12:50:06,456] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:50:06,472] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:50:06,505] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.056 seconds
+[2020-06-13 12:50:56,511] {scheduler_job.py:154} INFO - Started process (PID=87826) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:50:56,518] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:50:56,519] {logging_mixin.py:112} INFO - [2020-06-13 12:50:56,519] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:50:56,530] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:50:56,560] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.050 seconds
+[2020-06-13 12:51:46,557] {scheduler_job.py:154} INFO - Started process (PID=88021) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:51:46,561] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:51:46,562] {logging_mixin.py:112} INFO - [2020-06-13 12:51:46,562] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:51:46,578] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:51:46,627] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.070 seconds
+[2020-06-13 12:52:36,641] {scheduler_job.py:154} INFO - Started process (PID=88299) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:52:36,646] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:52:36,647] {logging_mixin.py:112} INFO - [2020-06-13 12:52:36,647] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:52:36,661] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:52:36,695] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.054 seconds
+[2020-06-13 12:53:26,664] {scheduler_job.py:154} INFO - Started process (PID=88587) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:53:26,666] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:53:26,667] {logging_mixin.py:112} INFO - [2020-06-13 12:53:26,667] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:53:26,674] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:53:26,702] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.038 seconds
+[2020-06-13 12:54:16,725] {scheduler_job.py:154} INFO - Started process (PID=88885) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:54:16,731] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:54:16,732] {logging_mixin.py:112} INFO - [2020-06-13 12:54:16,732] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:54:16,746] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:54:16,776] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.051 seconds
+[2020-06-13 12:55:06,776] {scheduler_job.py:154} INFO - Started process (PID=89094) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:55:06,784] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:55:06,785] {logging_mixin.py:112} INFO - [2020-06-13 12:55:06,785] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:55:06,798] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:55:06,822] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.046 seconds
+[2020-06-13 12:55:56,812] {scheduler_job.py:154} INFO - Started process (PID=89283) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:55:56,814] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:55:56,814] {logging_mixin.py:112} INFO - [2020-06-13 12:55:56,814] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:55:56,820] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:55:56,846] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.035 seconds
+[2020-06-13 12:56:46,862] {scheduler_job.py:154} INFO - Started process (PID=89471) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:56:46,864] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:56:46,864] {logging_mixin.py:112} INFO - [2020-06-13 12:56:46,864] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:56:46,869] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:56:46,894] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.032 seconds
+[2020-06-13 12:57:36,911] {scheduler_job.py:154} INFO - Started process (PID=89694) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:57:36,913] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:57:36,913] {logging_mixin.py:112} INFO - [2020-06-13 12:57:36,913] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:57:36,918] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:57:36,940] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.029 seconds
+[2020-06-13 12:58:26,961] {scheduler_job.py:154} INFO - Started process (PID=90054) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:58:26,963] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:58:26,964] {logging_mixin.py:112} INFO - [2020-06-13 12:58:26,964] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:58:26,970] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:58:26,994] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.034 seconds
+[2020-06-13 12:59:17,009] {scheduler_job.py:154} INFO - Started process (PID=90228) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:59:17,010] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 12:59:17,011] {logging_mixin.py:112} INFO - [2020-06-13 12:59:17,010] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:59:17,016] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 12:59:17,043] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.034 seconds
+[2020-06-13 13:00:07,097] {scheduler_job.py:154} INFO - Started process (PID=90335) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:00:07,099] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 13:00:07,100] {logging_mixin.py:112} INFO - [2020-06-13 13:00:07,100] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:00:07,106] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:00:07,131] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.034 seconds
+[2020-06-13 13:00:57,122] {scheduler_job.py:154} INFO - Started process (PID=90507) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:00:57,130] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 13:00:57,132] {logging_mixin.py:112} INFO - [2020-06-13 13:00:57,131] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:00:57,155] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:00:57,193] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.071 seconds
+[2020-06-13 13:01:47,178] {scheduler_job.py:154} INFO - Started process (PID=90698) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:01:47,188] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 13:01:47,190] {logging_mixin.py:112} INFO - [2020-06-13 13:01:47,189] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:01:47,217] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:01:47,263] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.085 seconds
+[2020-06-13 13:02:37,228] {scheduler_job.py:154} INFO - Started process (PID=90896) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:02:37,233] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 13:02:37,234] {logging_mixin.py:112} INFO - [2020-06-13 13:02:37,233] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:02:37,243] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:02:37,284] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.056 seconds
+[2020-06-13 13:03:27,259] {scheduler_job.py:154} INFO - Started process (PID=91025) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:03:27,260] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 13:03:27,261] {logging_mixin.py:112} INFO - [2020-06-13 13:03:27,260] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:03:27,266] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:03:27,293] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.034 seconds
+[2020-06-13 13:04:17,323] {scheduler_job.py:154} INFO - Started process (PID=91226) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:04:17,331] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 13:04:17,332] {logging_mixin.py:112} INFO - [2020-06-13 13:04:17,331] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:04:17,341] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:04:17,368] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.045 seconds
+[2020-06-13 13:05:07,418] {scheduler_job.py:154} INFO - Started process (PID=91406) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:05:07,425] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 13:05:07,427] {logging_mixin.py:112} INFO - [2020-06-13 13:05:07,426] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:05:07,450] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:05:07,509] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.091 seconds
+[2020-06-13 13:05:57,426] {scheduler_job.py:154} INFO - Started process (PID=91606) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:05:57,432] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 13:05:57,433] {logging_mixin.py:112} INFO - [2020-06-13 13:05:57,433] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:05:57,443] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:05:57,474] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.048 seconds
+[2020-06-13 13:06:47,474] {scheduler_job.py:154} INFO - Started process (PID=91742) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:06:47,478] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 13:06:47,479] {logging_mixin.py:112} INFO - [2020-06-13 13:06:47,479] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:06:47,488] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:06:47,519] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.046 seconds
+[2020-06-13 13:07:37,524] {scheduler_job.py:154} INFO - Started process (PID=92055) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:07:37,532] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 13:07:37,533] {logging_mixin.py:112} INFO - [2020-06-13 13:07:37,533] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:07:37,559] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:07:37,607] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.083 seconds
+[2020-06-13 13:08:27,552] {scheduler_job.py:154} INFO - Started process (PID=92194) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:08:27,554] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 13:08:27,554] {logging_mixin.py:112} INFO - [2020-06-13 13:08:27,554] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:08:27,561] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:08:27,589] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.036 seconds
+[2020-06-13 13:09:17,614] {scheduler_job.py:154} INFO - Started process (PID=92376) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:09:17,617] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 13:09:17,617] {logging_mixin.py:112} INFO - [2020-06-13 13:09:17,617] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:09:17,624] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:09:17,655] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.041 seconds
+[2020-06-13 13:10:07,679] {scheduler_job.py:154} INFO - Started process (PID=92546) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:10:07,681] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 13:10:07,681] {logging_mixin.py:112} INFO - [2020-06-13 13:10:07,681] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:10:07,688] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:10:07,712] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.033 seconds
+[2020-06-13 13:10:57,717] {scheduler_job.py:154} INFO - Started process (PID=92674) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:10:57,723] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 13:10:57,723] {logging_mixin.py:112} INFO - [2020-06-13 13:10:57,723] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:10:57,733] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:10:57,764] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.047 seconds
+[2020-06-13 13:11:47,757] {scheduler_job.py:154} INFO - Started process (PID=92840) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:11:47,759] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 13:11:47,759] {logging_mixin.py:112} INFO - [2020-06-13 13:11:47,759] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:11:47,767] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:11:47,813] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.056 seconds
+[2020-06-13 13:12:37,815] {scheduler_job.py:154} INFO - Started process (PID=93039) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:12:37,820] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 13:12:37,821] {logging_mixin.py:112} INFO - [2020-06-13 13:12:37,821] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:12:37,831] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:12:37,860] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.045 seconds
+[2020-06-13 13:13:27,866] {scheduler_job.py:154} INFO - Started process (PID=93200) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:13:27,873] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 13:13:27,874] {logging_mixin.py:112} INFO - [2020-06-13 13:13:27,874] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:13:27,886] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:13:27,915] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.049 seconds
+[2020-06-13 13:14:17,914] {scheduler_job.py:154} INFO - Started process (PID=93338) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:14:17,921] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 13:14:17,922] {logging_mixin.py:112} INFO - [2020-06-13 13:14:17,922] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:14:17,935] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:14:17,955] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.041 seconds
+[2020-06-13 13:15:07,955] {scheduler_job.py:154} INFO - Started process (PID=93475) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:15:07,958] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 13:15:07,958] {logging_mixin.py:112} INFO - [2020-06-13 13:15:07,958] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:15:07,966] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:15:07,987] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.032 seconds
+[2020-06-13 13:15:58,013] {scheduler_job.py:154} INFO - Started process (PID=93619) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:15:58,019] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 13:15:58,020] {logging_mixin.py:112} INFO - [2020-06-13 13:15:58,020] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:15:58,030] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:15:58,060] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.047 seconds
+[2020-06-13 13:16:48,063] {scheduler_job.py:154} INFO - Started process (PID=93758) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:16:48,067] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 13:16:48,068] {logging_mixin.py:112} INFO - [2020-06-13 13:16:48,068] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:16:48,077] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:16:48,106] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.043 seconds
+[2020-06-13 13:17:38,131] {scheduler_job.py:154} INFO - Started process (PID=93931) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:17:38,135] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 13:17:38,136] {logging_mixin.py:112} INFO - [2020-06-13 13:17:38,136] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:17:38,145] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:17:38,169] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.038 seconds
+[2020-06-13 13:18:28,149] {scheduler_job.py:154} INFO - Started process (PID=94074) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:18:28,152] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 13:18:28,153] {logging_mixin.py:112} INFO - [2020-06-13 13:18:28,152] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:18:28,162] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:18:28,201] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.052 seconds
+[2020-06-13 13:19:18,204] {scheduler_job.py:154} INFO - Started process (PID=94227) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:19:18,208] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 13:19:18,209] {logging_mixin.py:112} INFO - [2020-06-13 13:19:18,208] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:19:18,220] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:19:18,249] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.045 seconds
+[2020-06-13 13:20:08,247] {scheduler_job.py:154} INFO - Started process (PID=94366) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:20:08,249] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 13:20:08,249] {logging_mixin.py:112} INFO - [2020-06-13 13:20:08,249] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:20:08,254] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:20:08,286] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.039 seconds
+[2020-06-13 13:20:58,296] {scheduler_job.py:154} INFO - Started process (PID=94492) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:20:58,298] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 13:20:58,298] {logging_mixin.py:112} INFO - [2020-06-13 13:20:58,298] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:20:58,303] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:20:58,334] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.038 seconds
+[2020-06-13 13:21:48,359] {scheduler_job.py:154} INFO - Started process (PID=94673) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:21:48,365] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 13:21:48,366] {logging_mixin.py:112} INFO - [2020-06-13 13:21:48,366] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:21:48,377] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:21:48,407] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.048 seconds
+[2020-06-13 13:22:38,416] {scheduler_job.py:154} INFO - Started process (PID=94812) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:22:38,422] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 13:22:38,423] {logging_mixin.py:112} INFO - [2020-06-13 13:22:38,422] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:22:38,436] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:22:38,463] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.047 seconds
+[2020-06-13 13:27:04,224] {scheduler_job.py:154} INFO - Started process (PID=95369) to work on /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:27:04,230] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py for tasks to queue
+[2020-06-13 13:27:04,231] {logging_mixin.py:112} INFO - [2020-06-13 13:27:04,231] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:27:04,245] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['simple_dag']) retrieved from /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py
+[2020-06-13 13:27:04,276] {scheduler_job.py:162} INFO - Processing /home/nineleaps/PycharmProjects/airflow_2/airflow/dags/simple_dag.py took 0.053 seconds
